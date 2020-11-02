@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Andrés Mesa</title>
-    <link rel="icon" type="image/png" href="./images/favicon.png">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
       <div>
         <figure class="logo">
-          <img src="./images/marca.png" alt="Logo de http://andresmesa.com">
+          <img src="./images/marca.png" alt="Logo de http://andresmesa.com" />
         </figure>
         <nav class="menu">
           <ol>
@@ -33,51 +37,60 @@
         Hola! Soy <strong>Andrés Mesa.</strong> <br />
         <strong>Data Scientist</strong> y <strong>Back End Developer.</strong>
       </h1>
-      <img src="./images/hero.jpeg" alt="Hero" width="400" height="500">
+      <!-- <img src="./images/hero.jpeg" alt="Hero" width="400" height="500" /> -->
     </section>
     <section id="portafolio" class="portfolio">
       <h2>Portafolio (Proyectos Destacados)</h2>
       <article class="project">
-        <h3 class="project-title">Platzi Video</h3>
-        <h6 class="project-course">React Native / React</h6>
-        <p class="project-date">
-          <small> <strong>Fecha:</strong> 01/07/2018 </small>
-        </p>
-        <p class="project-url">
-          <small>
-            <strong>Puedos verlo en :</strong> www.platzi.com/native
-          </small>
-        </p>
-        <p class="project-description">
-          Platzi Video fue el resultado de 3 meses de trabajo para crear la
-          mejor app para enseñar el funcionamiento de React y React Native.
-          Desde crear un vista-detalle, hasta patrones avanzados de navegación,
-          este proyecto ha sido el ejemplo de futuros creadores de aplicaciones
-          multiplataforma El evento más grande sobre gente que quiere aprender
-          más de internet. En este evento te comparto cómo tener una vida de
-          constante aprendizaje.
-        </p>
+        <div class="project-details">
+          <h3 class="project-title">Platzi Video</h3>
+          <h6 class="project-course">React Native / React</h6>
+          <p class="project-date">
+            <small> <strong>Fecha:</strong> 01/07/2018 </small>
+          </p>
+          <p class="project-url">
+            <small>
+              <strong>Puedos verlo en :</strong> www.platzi.com/native
+            </small>
+          </p>
+          <p class="project-description">
+            Platzi Video fue el resultado de 3 meses de trabajo para crear la
+            mejor app para enseñar el funcionamiento de React y React Native.
+            Desde crear un vista-detalle, hasta patrones avanzados de navegación,
+            este proyecto ha sido el ejemplo de futuros creadores de aplicaciones
+            multiplataforma El evento más grande sobre gente que quiere aprender
+            más de internet. En este evento te comparto cómo tener una vida de
+            constante aprendizaje.
+          </p>
+        </div>
         <figure class="project-imageContainer">
-          <img class="project-image" src="./images/LetsRoomie.png" alt="LetsRommie">
+          <img
+            class="project-image"
+            src="./images/LetsRoomie.png"
+            alt="LetsRommie"
+          />
         </figure>
-        
       </article>
     </section>
     <section id="eventos">
       <h2>Más sobre mi experiencia</h2>
       <article class="event">
         <figure class="event-imageContainer">
-          <img class="event-image" src="./images/acamica.png" alt="Acámica">
+          <img class="event-image" src="./images/acamica.png" alt="Acámica" />
         </figure>
         <h3 class="event-title">Platzi Conf México 2018</h3>
-        <p class="event-description">El evento más grande sobre gente que quiere aprender en internet</p>
-        <a class="event-url "href="https://www.youtube.com/" target="_blank">Ver plática</a>
+        <p class="event-description">
+          El evento más grande sobre gente que quiere aprender en internet
+        </p>
+        <a class="event-url" href="https://www.youtube.com/" target="_blank"
+          >Ver plática</a
+        >
       </article>
     </section>
     <section id="contacto">
       <h3>¿Creamos algo juntos?</h3>
       <form action="/suscripcion/" class="form-email">
-        <input type="text" placeholder="Déjame tu email" id="email">
+        <input type="text" placeholder="Déjame tu email" id="email" />
         <button>Enviar</button>
       </form>
     </section>

@@ -115,9 +115,9 @@ figure {
   line-height: 58%;
 }
 
-/* .hero-image {
-  object-fit: cover;
-} */
+.hero-image {
+  border-radius: 10%;
+}
 
 
 

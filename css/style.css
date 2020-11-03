@@ -6,6 +6,7 @@ celeste = #026fff*/
 body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
+  background-color: #fafafa;
 }
 
 h1,
@@ -33,20 +34,27 @@ h1 strong {
 }
 
 .hero h1 {
-  color: white;
+  color: black;
 }
 
-.hero h1 strong {
-  color: white;
-}
+/* .hero h1 strong { 
+  color: black;
+} */
 
 h2 {
   color: #026fff;
   text-transform: uppercase; 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 40px;
+}
+
+.portfolio h2,
+.event-list-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 30px;
 }
 
 ol,
@@ -62,7 +70,7 @@ figure {
 
 .header {
   background-color: #000000;
-  color: white;
+  color: black;
   display: flex;
   justify-content: space-between;
   height: 90px;
@@ -88,9 +96,9 @@ figure {
 
 .hero {
   height: 300px;
-  color: white;
+  color: black ;
   /* background-image: url('../images/hero.jpeg'); */
-  background-color: #000000;
+  background-color: #fafafa;
   /* background-position: right; */
   /* background-position-x: right; */
   /* background-repeat: no-repeat; */
@@ -98,6 +106,13 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.hero h2 {
+  text-transform: none;
+  margin: 0;
+  height: 45px;
+  line-height: 58%;
 }
 
 /* .hero-image {
@@ -196,7 +211,8 @@ figure {
   background-color: #1b2127;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .footer img {
@@ -226,7 +242,7 @@ figure {
 }
 
 .event img {
-  width: 480px;
+  width: 505px;
   height: 200px;
   object-fit: cover;
 }
@@ -253,8 +269,8 @@ figure {
 }
 
 .contact {
-  color: white;
-  background-color: #056fff;
+  color: black;
+  background-color: white;
   height: 150px;
   display: flex;
   align-items: center;
@@ -300,8 +316,8 @@ figure {
 
 .form-email button {
   display: block;
-  background: transparent;
-  color: white;
+  background: darkgray;
+  color: black;
   padding: 10px 0;
   border-radius: 5px;
   width: 100px;
@@ -323,4 +339,12 @@ figure {
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+}
+
+.event-imageContainer {
+  margin: 23px;
+}
+
+.container.event {
+  justify-content: center;
 }

@@ -260,13 +260,6 @@ figure {
   text-align: left;
 }
 
-.event-url {
-  color: #056fff;
-  border: 1px solid #056fff;
-  padding: 5px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-}
 
 .contact {
   color: black;
@@ -363,4 +356,8 @@ figure {
 	border: 1px solid black;
 	color: white;
 	background-color: black;
+}
+
+.event-details a {
+  text-decoration: none;
 }

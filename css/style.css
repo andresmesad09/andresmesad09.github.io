@@ -290,16 +290,16 @@ figure {
 }
 
 .social-link.twitter {
-  background-image: url('../images/twitter.svg');
+  background-image: url('../assets/img/twitter.svg');
 }
 .social-link.linkedin {
-  background-image: url('../images/linkedin.svg');
+  background-image: url('../assets/img/linkedin.svg');
 }
 .social-link.github {
-  background-image: url('../images/github.svg');
+  background-image: url('../assets/img/github.svg');
 }
 .social-link.instagram {
-  background-image: url('../images/instagram.svg');
+  background-image: url('../assets/img/instagram.svg');
 }
 
 .form-email input{
@@ -347,4 +347,20 @@ figure {
 
 .container.event {
   justify-content: center;
+}
+
+
+.event-url {
+  color: black;
+  border: 1px solid black;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.event-url:hover {
+	border: 1px solid black;
+	color: white;
+	background-color: black;
 }

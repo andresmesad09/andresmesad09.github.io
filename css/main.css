@@ -1,0 +1,277 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
+
+.home-body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.grid-container {
+  max-width: 100%;
+  margin: auto;
+}
+
+
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+header .logo-container {
+  margin-left: 50px;
+}
+
+header .logo-container img{
+  height: 100px;
+}
+
+header .header-icons-container .icons {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: center;
+  margin-right: 50px;
+}
+
+header .header-icons-container .icons a img {
+  width: 22px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+
+header .icons span {
+  color: white;
+}
+
+
+
+.home-main {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 100%;
+  background-image: url('../assets/img/13087.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-main .home-main-details {
+  display: grid;
+  grid-column: 2;
+  justify-items: center;
+  height: 350px;
+  margin-top: 80px;
+}
+
+.home-main .profile-link {
+  margin-bottom: 90px;
+  display: grid;
+  grid-column: 1;
+  justify-content: center;
+}
+
+.home-main .profile-link a {
+  color: black;
+  height: 34px;
+  border-bottom: 1px solid black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.home-main-text {
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.home-main .home-main-button {
+  color: black;
+  border-radius: 5px;
+}
+
+.home-main .home-main-button a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blogs-main {
+  display: grid
+}
+
+.blogs-news-container {
+  background-color: #b8bac1;
+  padding: 0 50px 40px;
+}
+
+.blogs-main-new {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr
+}
+
+.blogs-main-new h3 {
+  margin: 10px 0 0;
+  text-align: left;
+  font-size: 30px;
+}
+
+.blogs-news-img-container {
+  grid-column: 1;
+  padding: 0 20px 0 0;
+}
+
+/* .blogs-news-img-container img {
+  width: 50%;
+} */
+
+.blogs-news-info-container {
+  grid-column: 2;
+}
+
+.blogs-news-info-container h2 {
+  margin: 0;
+}
+
+.blogs-news-info-container p{
+  margin-bottom: 35px;
+}
+
+.blogs-posts-container {
+  padding: 0 50px 40px;
+}
+
+.blogs-posts-container h3 {
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  font-weight: bolder;
+}
+
+.blogs-button {
+  border: 1px solid black;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.blogs-button:hover {
+	border: 1px solid black;
+	color: white;
+	background-color: black;
+}
+
+.blogs-posts-container .post-container {
+  display: inline-block;
+  padding-left: 10px;
+  max-width: 30%;
+  margin-bottom: 50px;
+}
+
+.blogs-posts-container .post-container p {
+  margin-bottom: 35px;
+}
+
+.blogs-posts-container .post-container img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  /* margin-top: 50px; */
+  padding: 20px 0;
+}
+
+.blogpost-img-container {
+  padding: 15px 50px 40px;
+}
+
+.blogpost-img-container img {
+  width: 100%;
+}
+
+.blogpost-main-container {
+  padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+}
+
+.blogpost-main-container article h1 {
+  font-size: 35px;
+}
+
+.contact-main-container {
+  width: 100%;
+  min-height: 150px;
+  background-color: #b8bac1;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: -16px;
+}
+
+.contact-main-container div {
+  display: inline-block;
+  width: 49.5%;
+  height: 100%;
+}
+
+.contact-main-container div a {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.contact-main-container .contact-left,
+.contact-main-container .contact-right {
+  margin-top: 50px;
+  text-align: initial;
+  font-size: 23px;
+  margin-left: 15px;
+}
+
+.contact-main-container img {
+  width: 100px;
+  height: 80px;
+}
